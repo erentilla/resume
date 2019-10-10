@@ -1,0 +1,211 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemm}[1]{
+  \item\small{
+    { #1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{linkedin.com/in/}{{\Large Ibrahim Eren Tilla} \hspace{8cm}}} & Email : \href{mailto:eren.tilla@ug.bilkent.edu.tr}{\textcolor{blue}{eren.tilla@ug.bilkent.edu.tr}}\\
+  \href{https://www.linkedin.com/in/erentilla/}{LinkedIn: \textcolor{blue}{linkedin.com/in/erentilla}} & Mobile : +90 532 690 44 69\\  \href{https://github.com/erentilla}{GitHub: \textcolor{blue}{github.com/erentilla}}  \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bilkent University \hspace{9.4 cm}}{Turkey, Ankara}
+      {Bachelor's Degree in Computer Engineering}{Aug. 2017 -- June 2021 (Expected)}
+     \\~\\
+     {\underline{Relevant Courses:}{ Algorithms, Programming Languages, Object-Oriented Design, Data Structures, Data Analysis, Computer Organization, Digital Design, Discrete Mathematics, Probability and Statistics, Linear Algebra} }
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Turkish Airlines}{Turkey, Istanbul}
+      {Software Engineer Intern \hspace{11 cm}}{July 2019 -- Sept. 2019}
+      \resumeItemListStart
+        \resumeItemm
+          {Worked on the basics of a project that will be used later on by the company.}
+        \resumeItemm
+          {Experienced teamwork with 9 other software engineering interns.}
+        \resumeItemm
+          {Took part in the corporate business environment.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {User Agreement Program} {}
+    {Internship Project}{}
+    \resumeItemListStart
+      \resumeItemm
+      {As a team of 10 software engineer trainees, we build the outlines of a user agreement program that will be used later on by the company.}
+      \resumeItemm
+        {The aim of the program is to make the interactions between different departments of the company to communicate easier.}
+      \resumeItemm
+        {Python, MSSQL (for database) and Power BI (for data visualization) are used.}
+
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {saveMyPatient()}{}
+      {Course Project}{}
+      \resumeItemListStart
+        \resumeItemm
+          {A fun, freshman year group project game that was designed for the Algorithms and Programming course.}
+        \resumeItemm
+          {We aimed to have a better grasp of the Object Oriented Programming (OOP).}
+        \resumeItemm
+          {It consists of various mini-games for different systems of the human body, where the user tries to save the patient by succeeding in all of these systems.}
+          \resumeItemm
+          {Coded in Java and JavaFX (framework) for visualization.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+        {Evacuation Elevator}{}
+        {Course Project}{}
+        \resumeItemListStart
+          \resumeItemm
+            {Digital Design course project that aims to evacuate the residents of a building in an emergency situation as fast as possible.}
+          \resumeItemm
+            {Implemented in SystemVerilog and visualized on a Beti Board using a Basys3 (FPGA).}
+        \resumeItemListEnd      
+
+		\resumeSubheading
+        {Settlers of Catan}{}
+        {Course Project (In Progress)}{}
+        \resumeItemListStart
+          \resumeItemm
+            {Object Oriented Programming course project.}
+          \resumeItemm
+            {As a team of 5 people, we are trying to implement Settlers of Catan using Java.}
+        \resumeItemListEnd
+        
+%      \resumeSubheading
+%        {CS102 - Interactive Biology Quiz}{}
+%        {Course Project}{}
+%        \resumeItemListStart
+%          \resumeItemm
+%            {Teaching biology in a fun and interactive way with fun games.}
+%          \resumeItemm
+%            {Coded in JavaFX framework of JAVA.}
+%        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages:}{ Java, C++, Python, HTML, JavaScript, System Verilog, MIPS Assembly}
+      %\hfill
+      %\textbf{Technologies}{: Angular2+, React, Nodejs}
+    }
+    \item{
+      \textbf{Technologies}{: Git, JavaFX, LaTeX}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+%--------EXTRACURRICULAR ACTIVITIES------------
+\section{Extracurricular Activities \& Hobbies}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{}{ Came in third place in the 2018 Fall Term "Bilkent Swimming Challenge" in the women \& men category.}
+    }
+    \item{
+      \textbf{}{ Travelling, Hiking, Swimming, Camping, Motorsports, Reading, Classical \& Modern Cinema, Playing Guitar  }
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
